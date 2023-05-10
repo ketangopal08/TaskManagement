@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ToDoTask</string>
+    <string name="title_activity_main">ToDoTask</string>
+    <string name="package_name">todo.task.app</string>
+    <string name="custom_url_scheme">todo.task.app</string>
+</resources>
