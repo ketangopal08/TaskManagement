@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="position:relative;">
     <section v-if="landing">
       <section class="header-out">
       <div class="header-box">
@@ -16,7 +16,7 @@
         <v-btn>
           Register
         </v-btn>
-        <v-btn class="ml-2" color="primary" @click="landing = false">
+        <v-btn class="ml-2 black--text" color="primary" @click="landing = false">
           Sign in
         </v-btn>
       </div>
@@ -45,7 +45,7 @@
           <div style="text-align:right">
             <p style="margin-top:-10px;display: inherit;color:#999;font-size:13px">Recovery Password</p>
           </div>
-          <v-btn block color="primary">Sign in</v-btn>
+          <v-btn block color="primary" class="black--text">Sign in</v-btn>
         </div>
         <div class="b4-hello">
           <p style="margin-top:-10px;display: inherit;color:#999;font-size:13px">Or Continue With</p>
@@ -54,6 +54,11 @@
           <img height="33" class="mr-5" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png" alt="" srcset="">
           <img height="33" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1724px-Apple_logo_white.svg.png" alt="">
         </div>
+        <img src="/logo1.png" style="
+          position: absolute;
+          top: 58px;
+          height: 100px;
+          transform: rotate(90deg);">
       </section>
     </section>
   </div>
@@ -88,24 +93,25 @@ export default Vue.extend({
   font-size: 16px;
   color: #ccc;
   margin-top: 16px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .body-o-2{
   padding-top: 16%;
   text-align: center;
-  height: 13vh;
+  height: 16vh;
   padding: 13px;
 }
 .body-o-1{
   text-align: center;
   font-size: 14px;
-  height: 33vh;
+  height: 30vh;
   padding: 13px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .body-o-1 h1{
+  font-size:22px;
   font-weight: 600;
 }
 .body-o-1 p{
