@@ -1,5 +1,5 @@
 import { firebaseDB } from "./firebase";
-import iDataBase from "./iDataBase";
+import iDataBase from "../interfaces/iDataBase";
 
 
 export default function DataBase():iDataBase{

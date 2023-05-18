@@ -33,25 +33,27 @@
         </div>
         <div class="b3-hello">
           <v-text-field
-            label="Enter Username"
+            label="Enter Email"
             solo
             class="mb-0 pb-0"
+            v-model="email"
           ></v-text-field>
           <v-text-field
             label="Password"
             solo
+            v-model="password"
             style="margin-top:-10px"
           ></v-text-field>
           <div style="text-align:right">
             <p style="margin-top:-10px;display: inherit;color:#999;font-size:13px">Recovery Password</p>
           </div>
-          <v-btn block color="primary" class="black--text">Sign in</v-btn>
+          <v-btn block color="primary" @click="signIn" class="black--text">Sign in</v-btn>
         </div>
         <div class="b4-hello">
           <p style="margin-top:-10px;display: inherit;color:#999;font-size:13px">Or Continue With</p>
         </div>
         <div style="text-align:center;padding-top:10px">
-          <img height="33" class="mr-5" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png" alt="" srcset="">
+          <img height="33" @click="signUpGoogle()" class="mr-5" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png" alt="" srcset="">
           <img height="33" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1724px-Apple_logo_white.svg.png" alt="">
         </div>
         <img src="/logo1.png" style="
@@ -66,10 +68,23 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import FirebaseAuthentication from '@/BLL/authentication/firebaseAuthentication';
+import GoogleAuth from '~/BLL/authentication/googleAuth';
 export default Vue.extend({
   data(){
     return{
-      landing:true
+      landing:true,
+      email:'',
+      password:''
+    }
+  },
+  methods:{
+    async signUpGoogle(){
+      GoogleAuth.signUp();
+    },
+    async signIn(){
+      let firebaseSignIn = new FirebaseAuthentication();
+      firebaseSignIn.signIn(this.email,this.password);
     }
   }
 })
@@ -86,14 +101,14 @@ export default Vue.extend({
 .b2-hello{
 }
 .b2-hello h1{
-  font-weight: 600;
+  font-weight: 700;
   font-size:22px;
 }
 .b2-hello p{
   font-size: 16px;
-  color: #ccc;
+  color: #bbb;
   margin-top: 16px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .body-o-2{
   padding-top: 16%;
@@ -112,12 +127,13 @@ export default Vue.extend({
 }
 .body-o-1 h1{
   font-size:22px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .body-o-1 p{
   font-size: 16px;
-  color: #ccc;
+  color: #bbb;
   margin-top: 16px;
+  font-weight: 600;
 }
 .body-out{
 }

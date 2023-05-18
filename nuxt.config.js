@@ -14,14 +14,20 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {rel:"stylesheet" ,href:"https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"}
+  ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    '~/plugins/route',
+    '~/BLL/firebase/config'
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

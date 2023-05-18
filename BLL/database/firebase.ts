@@ -1,4 +1,4 @@
-import iDataBase from "./iDataBase";
+import iDataBase from "../interfaces/iDataBase";
 
 
 export class firebaseDB implements iDataBase{
