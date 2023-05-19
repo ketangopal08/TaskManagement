@@ -25,9 +25,14 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~/plugins/route',
     '~/BLL/firebase/config'
   ],
+
+  // Router middleware
+
+  router: {
+    middleware: ['auth']
+  },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -44,6 +49,31 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: "AIzaSyBNbs_4_Lq1EbEpU1snW3avqIOjaPpVZxk",
+          authDomain: "todotasking.firebaseapp.com",
+          databaseURL: "https://todotasking-default-rtdb.firebaseio.com",
+          projectId: "todotasking",
+          storageBucket: "todotasking.appspot.com",
+          messagingSenderId: "559697227355",
+          appId: "1:559697227355:web:667e4ee467c373d54cd97e",
+          measurementId: "G-KN6PJY24W4"
+        },
+        services: {
+          auth: {
+            persistence: 'local', // default
+            initialize: {
+              // onAuthStateChangedAction: 'onAuthStateChangedAction',
+              subscribeManually: false
+            },
+            ssr: false, 
+          }
+        }
+      }
+    ]
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

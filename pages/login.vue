@@ -1,6 +1,6 @@
 <template>
   <div style="position:relative;">
-    <section v-if="landing">
+    <section v-if="view == 'landing'">
       <section class="header-out">
       <div class="header-box">
       </div>
@@ -13,16 +13,17 @@
         </div>
       </div>
       <div class="body-o-2">
-        <v-btn>
+        <v-btn @click="view = 'register'">
           Register
         </v-btn>
-        <v-btn class="ml-2 black--text" color="primary" @click="landing = false">
+        <v-btn class="ml-2 black--text" color="primary" @click="view = 'login'">
           Sign in
         </v-btn>
       </div>
     </section>
     </section>
-    <section v-else style="height:100vh;display:flex;align-items:center;
+    <!-- login -----  -->
+    <section v-if="view == 'login'" style="height:100vh;display:flex;align-items:center;
   justify-content: center;">
       <section style="width:100%">
         <div class="b2-hello">
@@ -47,7 +48,7 @@
           <div style="text-align:right">
             <p style="margin-top:-10px;display: inherit;color:#999;font-size:13px">Recovery Password</p>
           </div>
-          <v-btn block color="primary" @click="signIn" class="black--text">Sign in</v-btn>
+          <v-btn :loading="loading" block color="primary" @click="signIn" class="black--text">Sign in</v-btn>
         </div>
         <div class="b4-hello">
           <p style="margin-top:-10px;display: inherit;color:#999;font-size:13px">Or Continue With</p>
@@ -63,6 +64,57 @@
           transform: rotate(90deg);">
       </section>
     </section>
+    <!-- Register ---- -->
+    <section v-if="view == 'register'" style="height:100vh;display:flex;align-items:center;
+  justify-content: center;">
+      <section style="width:100%">
+        <div class="b2-hello">
+          <div style="text-align:center">
+            <h1>Sign Up Now!</h1>
+            <p>WooHoo let's get start to </br>create some tasks!</p>
+          </div>
+        </div>
+        <div class="b3-hello">
+          <v-text-field
+            label="Display Name"
+            solo
+            class="mb-0 pb-0"
+            v-model="displayName"
+          ></v-text-field>
+          <v-text-field
+            label="Enter Email"
+            solo
+            class="mb-0 pb-0"
+            v-model="email"
+          ></v-text-field>
+          <v-text-field
+            label="Password"
+            solo
+            v-model="password"
+            style="margin-top:-10px"
+          ></v-text-field>
+          <v-text-field
+            label="Confirm Password"
+            solo
+            v-model="confirmPassword"
+            style="margin-top:-10px"
+          ></v-text-field>
+          <div style="text-align:right">
+            <p style="margin-top:-10px;display: inherit;color:#999;font-size:13px">Recovery Password</p>
+          </div>
+          <v-btn block color="primary" :loading="loading" @click="signUp" class="black--text">Sign Up</v-btn>
+        </div>
+        <div class="b4-hello">
+          <p @click="view = 'register'" style="margin-top:-10px;display: inherit;color:#999;font-size:13px">Sign in now</p>
+        </div>
+        <img src="/logo1.png" style="
+          position: absolute;
+          bottom: 0px;
+          height: 100px;
+          left:20px;
+          transform: rotate(0deg);">
+      </section>
+    </section>
   </div>
 </template>
 
@@ -73,9 +125,12 @@ import GoogleAuth from '~/BLL/authentication/googleAuth';
 export default Vue.extend({
   data(){
     return{
-      landing:true,
+      view:'landing',
       email:'',
-      password:''
+      password:'',
+      displayName:'',
+      confirmPassword:'',
+      loading:false
     }
   },
   methods:{
@@ -83,8 +138,33 @@ export default Vue.extend({
       GoogleAuth.signUp();
     },
     async signIn(){
-      let firebaseSignIn = new FirebaseAuthentication();
-      firebaseSignIn.signIn(this.email,this.password);
+      try {
+        this.loading = true;
+        let firebaseSignIn = new FirebaseAuthentication();
+        await firebaseSignIn.signIn(this.email,this.password);
+        this.$router.push("/");
+        this.loading = false;
+      } catch (error) {
+        this.loading = false;
+        alert(error)
+      }
+    },
+    async signUp(){
+      if(this.password == this.confirmPassword){
+        let firebaseSignUp = new FirebaseAuthentication();
+        let user = await firebaseSignUp.signUp(this.email,this.password,this.displayName);
+        if(user){
+          try {
+            await firebaseSignUp.updateProfile(user,this.displayName);
+            this.$router.push("/")
+          } catch (error) {
+            alert(error);
+          }
+        }
+      }
+      else{
+        alert('not matching');
+      }
     }
   }
 })
