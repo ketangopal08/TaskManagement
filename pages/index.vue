@@ -1,27 +1,26 @@
 <template>
   <div>
-    <v-btn @click="logOut"></v-btn>
+    <h1>Manage your task</h1>
   </div>
 </template>
 
 <script>
-import FirebaseAuthentication from '@/BLL/authentication/firebaseAuthentication';
 
 export default {
   methods:{
-    async logOut(){
-      try {
-        let auth = new FirebaseAuthentication();
-        await auth.logout();
-        this.$router.push("/login")
-      } catch (error) {
-        alert(error)
-      }
+    
+  },
+  computed:{
+    user(){
+      return this.$store.state.user
     }
   }
 }
 </script>
 
-<style>
-
+<style scoped>
+h1{
+  font-weight: 500;
+  font-size: 30px;
+}
 </style>

@@ -142,6 +142,7 @@ export default Vue.extend({
         this.loading = true;
         let firebaseSignIn = new FirebaseAuthentication();
         await firebaseSignIn.signIn(this.email,this.password);
+        this.$store.commit("setUserHasLoggedIn",true);
         this.$router.push("/");
         this.loading = false;
       } catch (error) {
