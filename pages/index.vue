@@ -21,6 +21,7 @@
 <script lang="ts">
 import Vue from "vue";
 import iUser from "~/BLL/interfaces/iUser";
+//@ts-ignore
 import { SwipeableBottomSheet } from "vue-swipeable-bottom-sheet";
 
 export default Vue.extend({
