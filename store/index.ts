@@ -1,6 +1,7 @@
 export const state = () => ({
     loggedIn:false,
-    user:null
+    user:null,
+    bottomSheet:false
 })
 
 export const mutations = {
@@ -9,6 +10,9 @@ export const mutations = {
     },
     setUser(state:any,commit:any){
         state.user = commit;
+    },
+    openBottomSheet(state:any,commit:boolean){
+        state.bottomSheet = commit;
     }
 }
   
