@@ -1,8 +1,13 @@
 <template>
-  <div>
-    <h1 @click="$store.commit('openBottomSheet', true)" v-if="user">
-      Hey, {{ user.displayName }}
-    </h1>
+  <div class="pa-3">
+    <section class="i-main-header">
+      <p v-if="user">Hey, {{ user.displayName }}</p>
+      <h1>Manage Your Taks</h1>
+    </section>
+
+    <section>
+      <v-calendar ref="calendar" type="week"> </v-calendar>
+    </section>
   </div>
 </template>
 
@@ -25,8 +30,18 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 30px;
+.i-main-header {
+  padding: 8px;
+  margin-bottom: 13px;
+}
+.i-main-header p {
+  font-size: 18px;
+  margin-bottom: 0px;
+  color: #ccc;
+}
+.i-main-header h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 3px;
 }
 </style>

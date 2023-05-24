@@ -1,7 +1,17 @@
 <template>
   <v-app dark>
     <v-main>
-      <section style="height: calc(100vh - 100px)">
+      <v-app-bar color="dark">
+        <v-app-bar-nav-icon></v-app-bar-nav-icon>
+        <v-spacer></v-spacer>
+        <v-avatar size="36">
+          <img
+            src="https://img.freepik.com/premium-psd/3d-cartoon-character-wearing-mockup-face-mask_235528-230.jpg"
+            alt="John"
+          />
+        </v-avatar>
+      </v-app-bar>
+      <section style="height: calc(100vh - 156px)">
         <Nuxt />
       </section>
       <section v-if="loggedIn" style="height: 100px">
@@ -59,6 +69,10 @@ export default Vue.extend({
 </script>
 
 <style>
+:root {
+  --c-primary: #b5cff8;
+  --for-light: #111;
+}
 body {
   position: fixed;
   width: 100%;
@@ -82,5 +96,34 @@ body,
   margin: 0 auto;
   cursor: pointer;
   background: rgb(255 255 255) !important;
+}
+.v-calendar-daily__body {
+  display: none !important;
+}
+.v-calendar-daily__intervals-head {
+  display: none;
+}
+.v-calendar-daily__head {
+  margin-right: 0 !important;
+}
+.theme--dark.v-calendar-daily {
+  background-color: unset !important;
+  border-left: unset !important;
+  border-top: unset !important;
+}
+.theme--dark.v-calendar-daily .v-calendar-daily_head-day {
+  border-right: unset !important;
+  border-bottom: unset !important;
+  color: unset !important;
+}
+.v-calendar-daily_head-day .v-btn--fab.v-size--default {
+  height: 35px !important;
+  width: 35px !important;
+}
+.v-calendar-daily_head-day.v-present .v-btn--fab.v-size--default {
+  height: 35px !important;
+  width: 35px !important;
+  background: var(--c-primary) !important;
+  color: var(--for-light) !important;
 }
 </style>
