@@ -1,7 +1,7 @@
 <template>
   <v-app dark>
     <v-main>
-      <v-app-bar color="dark">
+      <v-app-bar class="elevation-0" color="dark" v-if="loggedIn">
         <v-app-bar-nav-icon></v-app-bar-nav-icon>
         <v-spacer></v-spacer>
         <v-avatar size="36">
@@ -11,7 +11,7 @@
           />
         </v-avatar>
       </v-app-bar>
-      <section style="height: calc(100vh - 156px)">
+      <section style="height: calc(100vh - 156px); overflow-y: auto">
         <Nuxt />
       </section>
       <section v-if="loggedIn" style="height: 100px">
