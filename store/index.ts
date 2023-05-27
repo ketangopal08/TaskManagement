@@ -1,7 +1,7 @@
 export const state = () => ({
     loggedIn:false,
     user:null,
-    bottomSheet:false
+    bottomSheet:null
 })
 
 export const mutations = {

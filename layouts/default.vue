@@ -11,7 +11,11 @@
           />
         </v-avatar>
       </v-app-bar>
-      <section style="height: calc(100vh - 156px); overflow-y: auto">
+      <section
+        :style="
+          loggedIn ? 'height: calc(100vh - 156px); overflow-y: auto' : 'height:100vh'
+        "
+      >
         <Nuxt />
       </section>
       <section v-if="loggedIn" style="height: 100px">
@@ -64,7 +68,9 @@ export default Vue.extend({
       return this.$store.state.loggedIn;
     },
   },
-  mounted() {},
+  mounted() {
+    this.$store.commit("openBottomSheet", { open: true, url: "task/createTask" });
+  },
 });
 </script>
 
@@ -84,12 +90,17 @@ body,
 .bottom-sheet__card {
   width: 100%;
   position: fixed;
-  background: #252525 !important;
+  background: #1e1e1e !important;
+  z-index: unset !important;
+}
+.bottom-sheet__backdrop {
+  z-index: unset !important;
 }
 .bottom-sheet__pan {
-  height: 32px !important;
+  height: unset !important;
+  padding: 13px 0 !important;
 }
-.bottom-sheet__bar[data-v-61ac11a0] {
+.bottom-sheet__bar {
   width: 69px !important;
   height: 5px !important;
   border-radius: 14px;
@@ -125,5 +136,9 @@ body,
   width: 35px !important;
   background: var(--c-primary) !important;
   color: var(--for-light) !important;
+}
+
+.createTask .v-text-field > .v-input__control > .v-input__slot {
+  background: #313131 !important;
 }
 </style>
