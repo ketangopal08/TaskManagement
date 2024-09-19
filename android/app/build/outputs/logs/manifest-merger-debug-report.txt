@@ -1,0 +1,307 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:27:9-35:20
+	android:grantUriPermissions
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:31:13-47
+	android:authorities
+		INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:29:13-64
+	android:exported
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:28:13-62
+manifest
+ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:2:1-41:12
+MERGED from [:capacitor-android] D:\self pro\ToDoTask\node_modules\@capacitor\android\capacitor\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-cordova-android-plugins] D:\self pro\ToDoTask\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\dell\.gradle\caches\transforms-3\141b5ccf7a1f21001f4879761adaf03b\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\dell\.gradle\caches\transforms-3\98fddb801b5b0994abfde0cb7659480d\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\2e694515908a360876ebc7881383881b\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-splashscreen:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\a5048182f71e6e0372bd45e0c45874bc\transformed\core-splashscreen-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\dell\.gradle\caches\transforms-3\f3ee589db645ed4c6f999b3455d49d48\transformed\fragment-1.5.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.7.0] C:\Users\dell\.gradle\caches\transforms-3\5ed55b6759640f86b1819bf6287ce4e9\transformed\activity-1.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\29b3c78c500ba8b87d2fe1e92b39dd0e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\48f56956a2f1603c8a00c5bbfdbbe8f1\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\3f5bb82345365219a89e566fda02bb7c\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\500349fdf23459b6cbf31de1842fe617\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\c3b3be4d816c2538f37af261947a6c63\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\610e6d2ae866431b0d0a07f2b063d5bb\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.6.1] C:\Users\dell\.gradle\caches\transforms-3\065dbf5a5990e5739cb7f155fa124082\transformed\webkit-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\dell\.gradle\caches\transforms-3\33c7073dff9f19dd3aa8112d16c21aaa\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dell\.gradle\caches\transforms-3\3cf6d869ccc7b5139dbf99bde2f213c1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\7a36f126d59bcc13ffc8b95176651da9\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\dell\.gradle\caches\transforms-3\a4df648cd054226bee97755cd383f443\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\db99b898444f6943bef75b941605476d\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\43c1bfce350009239cbddea217dd2dc1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\eea6525a5f9a4232af50f4cf1a928f14\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\2bb8c792d6bf32a7ba225849ef9cc372\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\57e2630b75b0d2462059ab86a36677b3\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\7652f149d001da93ae8b64a05e3b07ca\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\95ccb903d25cebb054b2840e828696d0\transformed\core-ktx-1.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dell\.gradle\caches\transforms-3\72a1893b810e6bfe374f2a1634a5792f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\cee898b1bd88c25481f463fdeb65857e\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-3\654f323ed0b20fc4c6e31c4cb55274cf\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\d86e6429009407ccae59405325383ed4\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\dell\.gradle\caches\transforms-3\7eb067e7b237c01338656a6b15262366\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\f68a1be27f158fd57ffc4cc87f5c3be8\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.apache.cordova:framework:10.1.1] C:\Users\dell\.gradle\caches\transforms-3\2f6e1d14db600dd0e74b9f29b8449cbf\transformed\framework-10.1.1\AndroidManifest.xml:20:1-27:12
+INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:2:1-41:12
+	package
+		INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:4:5-36:19
+MERGED from [:capacitor-cordova-android-plugins] D:\self pro\ToDoTask\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-9:19
+MERGED from [:capacitor-cordova-android-plugins] D:\self pro\ToDoTask\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-9:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\500349fdf23459b6cbf31de1842fe617\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\500349fdf23459b6cbf31de1842fe617\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\43c1bfce350009239cbddea217dd2dc1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\43c1bfce350009239cbddea217dd2dc1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dell\.gradle\caches\transforms-3\72a1893b810e6bfe374f2a1634a5792f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dell\.gradle\caches\transforms-3\72a1893b810e6bfe374f2a1634a5792f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-3\654f323ed0b20fc4c6e31c4cb55274cf\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-3\654f323ed0b20fc4c6e31c4cb55274cf\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:8:9-54
+	android:icon
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:6:9-43
+	android:allowBackup
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:10:9-40
+activity#todo.task.app.MainActivity
+ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:12:9-25:20
+	android:label
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:15:13-56
+	android:launchMode
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:17:13-44
+	android:exported
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:18:13-36
+	android:configChanges
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:13:13-129
+	android:theme
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:16:13-62
+	android:name
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:14:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:20:13-23:29
+action#android.intent.action.MAIN
+ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:22:27-74
+uses-permission#android.permission.INTERNET
+ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:40:5-67
+	android:name
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:40:22-64
+uses-sdk
+INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+MERGED from [:capacitor-android] D:\self pro\ToDoTask\node_modules\@capacitor\android\capacitor\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-android] D:\self pro\ToDoTask\node_modules\@capacitor\android\capacitor\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-cordova-android-plugins] D:\self pro\ToDoTask\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:capacitor-cordova-android-plugins] D:\self pro\ToDoTask\android\capacitor-cordova-android-plugins\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\dell\.gradle\caches\transforms-3\141b5ccf7a1f21001f4879761adaf03b\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\dell\.gradle\caches\transforms-3\141b5ccf7a1f21001f4879761adaf03b\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\dell\.gradle\caches\transforms-3\98fddb801b5b0994abfde0cb7659480d\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\dell\.gradle\caches\transforms-3\98fddb801b5b0994abfde0cb7659480d\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\2e694515908a360876ebc7881383881b\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\2e694515908a360876ebc7881383881b\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\a5048182f71e6e0372bd45e0c45874bc\transformed\core-splashscreen-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\a5048182f71e6e0372bd45e0c45874bc\transformed\core-splashscreen-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\dell\.gradle\caches\transforms-3\f3ee589db645ed4c6f999b3455d49d48\transformed\fragment-1.5.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\dell\.gradle\caches\transforms-3\f3ee589db645ed4c6f999b3455d49d48\transformed\fragment-1.5.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.7.0] C:\Users\dell\.gradle\caches\transforms-3\5ed55b6759640f86b1819bf6287ce4e9\transformed\activity-1.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.0] C:\Users\dell\.gradle\caches\transforms-3\5ed55b6759640f86b1819bf6287ce4e9\transformed\activity-1.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\29b3c78c500ba8b87d2fe1e92b39dd0e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\29b3c78c500ba8b87d2fe1e92b39dd0e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\48f56956a2f1603c8a00c5bbfdbbe8f1\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\48f56956a2f1603c8a00c5bbfdbbe8f1\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\3f5bb82345365219a89e566fda02bb7c\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\3f5bb82345365219a89e566fda02bb7c\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\500349fdf23459b6cbf31de1842fe617\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\500349fdf23459b6cbf31de1842fe617\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\c3b3be4d816c2538f37af261947a6c63\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\c3b3be4d816c2538f37af261947a6c63\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\610e6d2ae866431b0d0a07f2b063d5bb\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\610e6d2ae866431b0d0a07f2b063d5bb\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.6.1] C:\Users\dell\.gradle\caches\transforms-3\065dbf5a5990e5739cb7f155fa124082\transformed\webkit-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.6.1] C:\Users\dell\.gradle\caches\transforms-3\065dbf5a5990e5739cb7f155fa124082\transformed\webkit-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\dell\.gradle\caches\transforms-3\33c7073dff9f19dd3aa8112d16c21aaa\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\dell\.gradle\caches\transforms-3\33c7073dff9f19dd3aa8112d16c21aaa\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dell\.gradle\caches\transforms-3\3cf6d869ccc7b5139dbf99bde2f213c1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\dell\.gradle\caches\transforms-3\3cf6d869ccc7b5139dbf99bde2f213c1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\7a36f126d59bcc13ffc8b95176651da9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\7a36f126d59bcc13ffc8b95176651da9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\dell\.gradle\caches\transforms-3\a4df648cd054226bee97755cd383f443\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\dell\.gradle\caches\transforms-3\a4df648cd054226bee97755cd383f443\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\db99b898444f6943bef75b941605476d\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\db99b898444f6943bef75b941605476d\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\43c1bfce350009239cbddea217dd2dc1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\43c1bfce350009239cbddea217dd2dc1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\eea6525a5f9a4232af50f4cf1a928f14\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\eea6525a5f9a4232af50f4cf1a928f14\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\2bb8c792d6bf32a7ba225849ef9cc372\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\2bb8c792d6bf32a7ba225849ef9cc372\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\57e2630b75b0d2462059ab86a36677b3\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\57e2630b75b0d2462059ab86a36677b3\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\7652f149d001da93ae8b64a05e3b07ca\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\7652f149d001da93ae8b64a05e3b07ca\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\95ccb903d25cebb054b2840e828696d0\transformed\core-ktx-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\95ccb903d25cebb054b2840e828696d0\transformed\core-ktx-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dell\.gradle\caches\transforms-3\72a1893b810e6bfe374f2a1634a5792f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dell\.gradle\caches\transforms-3\72a1893b810e6bfe374f2a1634a5792f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\cee898b1bd88c25481f463fdeb65857e\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\cee898b1bd88c25481f463fdeb65857e\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-3\654f323ed0b20fc4c6e31c4cb55274cf\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-3\654f323ed0b20fc4c6e31c4cb55274cf\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\d86e6429009407ccae59405325383ed4\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\d86e6429009407ccae59405325383ed4\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\dell\.gradle\caches\transforms-3\7eb067e7b237c01338656a6b15262366\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\dell\.gradle\caches\transforms-3\7eb067e7b237c01338656a6b15262366\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\f68a1be27f158fd57ffc4cc87f5c3be8\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\f68a1be27f158fd57ffc4cc87f5c3be8\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [org.apache.cordova:framework:10.1.1] C:\Users\dell\.gradle\caches\transforms-3\2f6e1d14db600dd0e74b9f29b8449cbf\transformed\framework-10.1.1\AndroidManifest.xml:25:5-44
+MERGED from [org.apache.cordova:framework:10.1.1] C:\Users\dell\.gradle\caches\transforms-3\2f6e1d14db600dd0e74b9f29b8449cbf\transformed\framework-10.1.1\AndroidManifest.xml:25:5-44
+INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:32:13-34:64
+	android:resource
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:34:17-51
+	android:name
+		ADDED from D:\self pro\ToDoTask\android\app\src\main\AndroidManifest.xml:33:17-67
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\500349fdf23459b6cbf31de1842fe617\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\43c1bfce350009239cbddea217dd2dc1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\43c1bfce350009239cbddea217dd2dc1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-3\654f323ed0b20fc4c6e31c4cb55274cf\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-3\654f323ed0b20fc4c6e31c4cb55274cf\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\500349fdf23459b6cbf31de1842fe617\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\500349fdf23459b6cbf31de1842fe617\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\500349fdf23459b6cbf31de1842fe617\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\500349fdf23459b6cbf31de1842fe617\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\500349fdf23459b6cbf31de1842fe617\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\500349fdf23459b6cbf31de1842fe617\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\500349fdf23459b6cbf31de1842fe617\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\43c1bfce350009239cbddea217dd2dc1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\43c1bfce350009239cbddea217dd2dc1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\dell\.gradle\caches\transforms-3\43c1bfce350009239cbddea217dd2dc1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:23:9-81
+permission#todo.task.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:26:22-94
+uses-permission#todo.task.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.0] C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

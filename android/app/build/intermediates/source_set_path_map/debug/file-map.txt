@@ -1,0 +1,31 @@
+todo.task.app-webkit-1.6.1-0 C:\Users\dell\.gradle\caches\transforms-3\065dbf5a5990e5739cb7f155fa124082\transformed\webkit-1.6.1\res
+todo.task.app-appcompat-resources-1.6.1-1 C:\Users\dell\.gradle\caches\transforms-3\141b5ccf7a1f21001f4879761adaf03b\transformed\appcompat-resources-1.6.1\res
+todo.task.app-lifecycle-viewmodel-2.6.1-2 C:\Users\dell\.gradle\caches\transforms-3\2bb8c792d6bf32a7ba225849ef9cc372\transformed\lifecycle-viewmodel-2.6.1\res
+todo.task.app-coordinatorlayout-1.2.0-3 C:\Users\dell\.gradle\caches\transforms-3\2e694515908a360876ebc7881383881b\transformed\coordinatorlayout-1.2.0\res
+todo.task.app-emoji2-views-helper-1.2.0-4 C:\Users\dell\.gradle\caches\transforms-3\3f5bb82345365219a89e566fda02bb7c\transformed\emoji2-views-helper-1.2.0\res
+todo.task.app-lifecycle-process-2.6.1-5 C:\Users\dell\.gradle\caches\transforms-3\43c1bfce350009239cbddea217dd2dc1\transformed\lifecycle-process-2.6.1\res
+todo.task.app-emoji2-1.2.0-6 C:\Users\dell\.gradle\caches\transforms-3\500349fdf23459b6cbf31de1842fe617\transformed\emoji2-1.2.0\res
+todo.task.app-lifecycle-runtime-2.6.1-7 C:\Users\dell\.gradle\caches\transforms-3\57e2630b75b0d2462059ab86a36677b3\transformed\lifecycle-runtime-2.6.1\res
+todo.task.app-activity-1.7.0-8 C:\Users\dell\.gradle\caches\transforms-3\5ed55b6759640f86b1819bf6287ce4e9\transformed\activity-1.7.0\res
+todo.task.app-startup-runtime-1.1.1-9 C:\Users\dell\.gradle\caches\transforms-3\654f323ed0b20fc4c6e31c4cb55274cf\transformed\startup-runtime-1.1.1\res
+todo.task.app-lifecycle-viewmodel-savedstate-2.6.1-10 C:\Users\dell\.gradle\caches\transforms-3\7652f149d001da93ae8b64a05e3b07ca\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+todo.task.app-core-runtime-2.2.0-11 C:\Users\dell\.gradle\caches\transforms-3\7eb067e7b237c01338656a6b15262366\transformed\core-runtime-2.2.0\res
+todo.task.app-core-ktx-1.10.0-12 C:\Users\dell\.gradle\caches\transforms-3\95ccb903d25cebb054b2840e828696d0\transformed\core-ktx-1.10.0\res
+todo.task.app-appcompat-1.6.1-13 C:\Users\dell\.gradle\caches\transforms-3\98fddb801b5b0994abfde0cb7659480d\transformed\appcompat-1.6.1\res
+todo.task.app-savedstate-1.2.1-14 C:\Users\dell\.gradle\caches\transforms-3\a4df648cd054226bee97755cd383f443\transformed\savedstate-1.2.1\res
+todo.task.app-core-splashscreen-1.0.0-15 C:\Users\dell\.gradle\caches\transforms-3\a5048182f71e6e0372bd45e0c45874bc\transformed\core-splashscreen-1.0.0\res
+todo.task.app-profileinstaller-1.3.0-16 C:\Users\dell\.gradle\caches\transforms-3\abe13f1398399c6b92d4e81d832b13a6\transformed\profileinstaller-1.3.0\res
+todo.task.app-lifecycle-livedata-2.6.1-17 C:\Users\dell\.gradle\caches\transforms-3\db99b898444f6943bef75b941605476d\transformed\lifecycle-livedata-2.6.1\res
+todo.task.app-core-1.10.0-18 C:\Users\dell\.gradle\caches\transforms-3\dd14dec60e28acc4fcd1d9943b909cc9\transformed\core-1.10.0\res
+todo.task.app-lifecycle-livedata-core-2.6.1-19 C:\Users\dell\.gradle\caches\transforms-3\eea6525a5f9a4232af50f4cf1a928f14\transformed\lifecycle-livedata-core-2.6.1\res
+todo.task.app-fragment-1.5.6-20 C:\Users\dell\.gradle\caches\transforms-3\f3ee589db645ed4c6f999b3455d49d48\transformed\fragment-1.5.6\res
+todo.task.app-annotation-experimental-1.3.0-21 C:\Users\dell\.gradle\caches\transforms-3\f68a1be27f158fd57ffc4cc87f5c3be8\transformed\annotation-experimental-1.3.0\res
+todo.task.app-pngs-22 D:\self pro\ToDoTask\android\app\build\generated\res\pngs\debug
+todo.task.app-resValues-23 D:\self pro\ToDoTask\android\app\build\generated\res\resValues\debug
+todo.task.app-packageDebugResources-24 D:\self pro\ToDoTask\android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+todo.task.app-packageDebugResources-25 D:\self pro\ToDoTask\android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+todo.task.app-merged_res-26 D:\self pro\ToDoTask\android\app\build\intermediates\merged_res\debug
+todo.task.app-debug-27 D:\self pro\ToDoTask\android\app\src\debug\res
+todo.task.app-main-28 D:\self pro\ToDoTask\android\app\src\main\res
+todo.task.app-packaged_res-29 D:\self pro\ToDoTask\android\capacitor-cordova-android-plugins\build\intermediates\packaged_res\debug
+todo.task.app-packaged_res-30 D:\self pro\ToDoTask\node_modules\@capacitor\android\capacitor\build\intermediates\packaged_res\debug

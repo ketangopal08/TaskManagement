@@ -1,0 +1,8 @@
+{
+	"appId": "todo.task.app",
+	"appName": "ToDoTask",
+	"webDir": "dist",
+	"server": {
+		"androidScheme": "https"
+	}
+}

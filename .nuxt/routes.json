@@ -1,0 +1,16 @@
+[
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "D:\\\\self pro\\\\ToDoTask\\\\pages\\\\login.vue",
+    "chunkName": "pages/login",
+    "_name": "_57220aed"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\self pro\\\\ToDoTask\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_e50b3054"
+  }
+]

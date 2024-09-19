@@ -1,0 +1,8 @@
+{
+  "BottomSheet": {
+    "description": "Auto imported from components/global/bottomSheet.vue"
+  },
+  "TaskCreateTask": {
+    "description": "Auto imported from components/task/createTask.vue"
+  }
+}
