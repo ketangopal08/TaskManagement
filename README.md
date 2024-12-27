@@ -1,4 +1,4 @@
-# 📝 To-Do Task Manager
+# 📝 To-Do Task management
 
 ![Project Logo](/landing.jpeg)
 
