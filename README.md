@@ -14,10 +14,7 @@
 - **Mobile-Responsive:** Manage your tasks seamlessly on any device.
 
 ## 🛠️ Tech Stack
-- **Frontend:** React/Angular/Vue (update based on your stack)
-- **Backend:** Node.js/Express/Django (update based on your stack)
-- **Database:** MongoDB/MySQL/PostgreSQL (update based on your stack)
-- **Other Tools:** Firebase, CI/CD, Docker (update based on your stack)
+- **Frontend:** Vue 
 
 ## 💡 How It Works
 1. Add your tasks with descriptions, due dates, and priorities.
